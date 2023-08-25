@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Open Sans', sans-ser;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header {
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    
+}
+.logo {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+.navBar a  {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navBar h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-right: 60px;
+}
+.navBar a:hover{
+    color:#4d4d4d;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2  {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 70px;
+    color: #d8f9ff;
+    font-size: 3em;
+    font-weight: 600;
+    
+}
+.main span {
+    color: #fff;
+    letter-spacing: 2px;
+}
+.title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    border-radius: 10px;
+    margin-top:50px;
+    padding: 10px;
+    display: inline;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.iconquran {
+    color: #000;
+    font-size: 5em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+.contact .icon {
+    font-size: 4.5em;
+    text-align: center;
+}
+.contact .info h3{
+    color: #000;
+    margin: 10px;
+}
+.contact .info p{
+    font-size: 1.3em;
+    margin: 10px;
+}
+.content .card {
+    margin: 15px;
+    
+}
+.footer {
+    background-color: #fa8d27;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footertitle {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footertitle span{
+    color: #faac04(187, 76, 2);
+}
+.footer .icons a {
+    color: #fff;
+    padding: 0 12px 0 0;
+    margin: 0px 20px;
+    font-size: 2em;
+    font-weight: 700;
+}
+.comingSoon h3 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.comingSoon span {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
